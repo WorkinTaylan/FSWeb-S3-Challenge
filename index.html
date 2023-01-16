@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<link rel="stylesheet" href="css/index.css">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
 
 </head>
 
@@ -20,20 +21,24 @@
 				<a href="index.html">
 					<h1>ERGİNEER BAR VE MANGAL</h1>
 				</a>
-				<!-- nav -->
-				<nav>
+			</div>
+			<!-- nav -->
+			<nav>
+				<div>
 					<a href="menu.html">Menü</a>
 					<a href="Rezervasyonlar.html">Rezervasyonlar</a>
 					<a href="ÖzelTeklifler.html">Özel Teklifler</a>
 					<a href="iletişim.html">İletişim</a>
-				</nav>
-			</div>
-			<div id="socialmedia">
+				</div>
+
+
 				<!--Sanırım id olması lazım, içerdeki classları aldığı için css'de tanımlamıyor. Sorabilirsin-->
-				<a href="#" class="fa fa-facebook" title="facebook"></a>
-				<a href="#" class="fa fa-twitter" title="twitter"></a>
-				<a href="#" class="fa fa-instagram" title="instagram"></a>
-			</div>
+				<div id="SocialMedia">
+					<i class="fa-brands fa-square-facebook"></i>
+					<i class="fa-brands fa-square-instagram" alt="instagram"></i>
+					<i class="fa-brands fa-square-twitter" alt="twitter"></i>
+				</div>
+			</nav>
 		</header>
 
 
@@ -136,15 +141,29 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
+			<div class="mail">
+				<div class="text">
+					Mail listemize katılın!
+				</div>
+				<div class="input">
+					<input type="email" id="email" name="email" placeholder="E-posta Adresi"><button>Üye Ol</button>
+				</div>
+			</div>
+
+
 			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
-			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			<div class="navbar">
+				<nav>
+					<a href="menu.html">Menü</a>
+					<a href="Rezervasyonlar.html">Rezervasyonlar</a>
+					<a href="ÖzelTeklifler.html">Özel Teklifler</a>
+					<a href="iletişim.html">Contact</a>
+				</nav>
+
+				<div class="copyright">©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</div><!-- copyright -->
+
+			</div>
+
 		</footer>
 	</div>
 </body>

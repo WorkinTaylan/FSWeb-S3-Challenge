@@ -85,7 +85,7 @@ Koyu transparan: background-color: rgb(0, 4, 17, .8);
 ​
 Menü sayfası için sağlanan tasarım dosyalarını inceleyin.
 ​
-* [ ] Ana sayfa header ve footer kopyalayıp menü sayfasına yapıştırın.
+* [ x] Ana sayfa header ve footer kopyalayıp menü sayfasına yapıştırın.
 * [ ] Header resmini menü sayfası resmiyle güncelleyin.
 * [ ] Menü için bir article öğesi ve içinde bir div kullanın; div'in class'ı "menu-container" olarak düzenleyin
 * [ ] Tüm bölümler için bir container oluşturun (örnek. yemekler ya da  mezeler) class'ları "menu-section" olarak düzenleyin
